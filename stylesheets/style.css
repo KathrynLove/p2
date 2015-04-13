@@ -12,7 +12,7 @@ header .container, main .container, footer .container {
 	margin: auto;
 }
 
-header {
+header { 
 	background: white;
 	border: 2px solid black;
 	padding: 20px;
