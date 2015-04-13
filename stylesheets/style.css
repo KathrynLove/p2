@@ -1,0 +1,72 @@
+body {
+	background: #f9e933;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header { 
+	background: white;
+	border: 2px solid black;
+	padding: 20px;
+	overflow: auto;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.3em;
+	font-style: italic;
+}
+
+header nav {
+	float: left;
+	width: 285px;
+}
+
+main {
+	background: khaki;
+	border: 2px solid black;
+	padding: 20px;
+	overflow: auto;
+}
+
+main p {
+	margin: 5px;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: large;
+	padding: 5px;
+}
+
+div .left {
+	float: left;
+	width: 570px;
+}
+
+div .right {
+	float: right;
+	width: 285px;
+}
+
+footer {
+	border: 2px solid black;
+	padding: 20px;
+	overflow: auto;
+}
